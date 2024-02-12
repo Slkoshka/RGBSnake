@@ -1,6 +1,8 @@
 # RGB Snake
 
-Simple **Snake** game implementation using RGB RAM (via **Corsair iCUE**) as a screen.
+Simple **Snake** game implementation using RGB RAM (via **Corsair iCUE**) as a screen. Supports only x64 versions of Windows (should work on Windows 11 and Windows 10 1607+).
+
+Example video and more context: [here](https://twitter.com/Slkoshka/status/1757033574723727798).
 
 ## How to run
 
@@ -11,6 +13,10 @@ dotnet publish RGBSnake.csproj -c Release -o publish
 ```
 
 This command will save binaries to the `publish` folder.
+
+## Controls
+
+Use WASD or the arrow keys for movement.
 
 ## License
 
